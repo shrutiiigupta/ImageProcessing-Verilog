@@ -2,7 +2,7 @@ from turtle import width
 import cv2
 import numpy as np
 
-img = cv2.imread("D:/codes/python/ImgToText/gray_image.jpg", 0)
+img = cv2.imread("D:/codes/python/ImgToText/test.jpg", 0)
 print(img)
 print(img.shape)
 height, width = img.shape[:2]
